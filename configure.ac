@@ -14,10 +14,10 @@ AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=litecoind
-BITCOIN_GUI_NAME=litecoin-qt
-BITCOIN_CLI_NAME=litecoin-cli
-BITCOIN_TX_NAME=litecoin-tx
+BITCOIN_DAEMON_NAME=bitseedd
+BITCOIN_GUI_NAME=bitseed-qt
+BITCOIN_CLI_NAME=bitseed-cli
+BITCOIN_TX_NAME=bitseed-tx
 
 AC_CANONICAL_HOST
 
